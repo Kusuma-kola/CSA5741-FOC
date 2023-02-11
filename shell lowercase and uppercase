@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "enter a string :"
+read char
+echo " the given string in uppercase is: "$char | tr '[:lower:]' '[:upper:]'
+echo " the given string in lowercase is: "$char | tr '[:upper:]' '[:lower:]'
+
